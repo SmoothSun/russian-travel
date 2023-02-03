@@ -12,18 +12,16 @@
     opacity: 0.8;
 }
 
-.header__lang-link:active {
-    text-decoration: underline;
-}
-
 .header__lang-link:last-of-type {
     margin-right: 0;
+    margin-left: 18px;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 320px) {
     .header__lang-link {
-        width: 22px;
-        height: 20px;
+        width: 100%;
+        height: 100%;
     }
 }
 
