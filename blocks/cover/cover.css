@@ -5,12 +5,11 @@
      flex-direction: column;
      justify-content: center;
      color: #fff;
-     text-decoration: none;
      position: relative;
      width: 100%;
      max-width: 1184px;
      min-height: 740px;
-     background-image: url(../../../russian-travel/images/cover-trains.jpg);
+     background-image: url(../../images/cover-trains.jpg);
      background-size: cover;
      background-position: center;
  }
