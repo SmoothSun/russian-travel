@@ -2,6 +2,7 @@
      background-image: url(../../images/cover-trains.jpg);
      background-size: cover;
      background-repeat: no-repeat;
+     background-position: center;
      box-sizing: border-box;
      position: relative;
      display: flex;
