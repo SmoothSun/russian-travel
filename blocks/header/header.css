@@ -4,7 +4,7 @@
     color: #fff;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-end;
     padding: 38px 48px 46px;
 }
 

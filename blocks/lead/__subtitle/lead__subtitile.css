@@ -8,13 +8,14 @@
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
-    margin: 32px auto 0 auto;
+    padding: 32px auto 0 auto;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 320px) {
     .lead__subtitle {
+        max-width: 600px;
         font-size: 16px;
         line-height: 20px;
-        margin: 16px auto 0 auto;
+        padding: 16px auto 0 auto;
     }
 }

@@ -8,26 +8,20 @@
     line-height: 100px;
     text-align: center;
     color: #FFFFFF;
-    margin: 56px auto 0 auto;
+    padding: 56px 0 0 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
     .lead__title {
-        margin: 0 24px 0 24px;
+        padding: 48px 0 0 0;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 320px) {
     .lead__title {
         max-width: 288px;
         font-size: 40px;
         line-height: 44px;
-        margin: 0 auto;
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .lead__title {
-        max-width: 720px;
+        padding-bottom: 16px
     }
 }

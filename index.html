@@ -10,7 +10,7 @@
     <meta name="description" content="Проект о путешествиях по России">
     <meta name="keywords" content="travel, russia, figma, css, html, yandex">
     <meta name="author" content="Roman Pyndychuk">
-    <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="pages/index.css">
     <title>Путешествия по России</title>
 </head>
 
@@ -21,8 +21,8 @@
     <header class="header">
         <img src="./images/header-logo.svg" alt="Контур России на карте" class="header__logo">
         <div class="header__lang-links">
-            <a href="#" class="header__lang-link header__lang-link_active">Ru</a>
-            <a href="#" class="header__lang-link">En</a>
+            <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
+            <li><a href="#" class="header__lang-link">En</a></li>
         </div>
     </header>
 
@@ -54,20 +54,25 @@
                 <li>Аэропортов <span class="intro__span">241</span></li>
             </ul>
         </section>
+
+        <!-- Блок 'photo-grid' -->
         <section class="photo-grid">
-            <img src="./images/photo-grid-train.jpg" alt="Внутри купе" class="photo-grid__item">
-            <img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы Атхарва" class="photo-grid__item">
-            <img src="./images/photo-grid-tuman.jpg" alt="Собака на сене" class="photo-grid__item">
-            <img src="./images/photo-grid-sochi.jpg" alt="Лес в тумане" class="photo-grid__item">
-            <img src="./images/photo-grid-arisa.jpg" alt="Колесо автомобиля" class="photo-grid__item">
-            <img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item">
-            <img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__item">
-            <img src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода" class="photo-grid__item">
-            <img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатские сопки" class="photo-grid__item">
-            <img src="./images/photo-grid-kamchatka-2.jpg" alt="Сопка издалека" class="photo-grid__item">
-            <img src="./images/photo-grid-baikal-2.jpg" alt="Скала на побережье" class="photo-grid__item">
-            <img src="./images/photo-grid-ergaki.jpg" alt="Эргаки" class="photo-grid__item">
+            <li><img src="./images/photo-grid-train.jpg" alt="Внутри купе" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-atharva-tulsi.jpg" alt="Горы Атхарва" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-tuman.jpg" alt="Собака на сене" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-sochi.jpg" alt="Лес в тумане" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-arisa.jpg" alt="Колесо автомобиля" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-baikal.jpg" alt="Байкал" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-elbrus.jpg" alt="Эльбрус" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-kondratiev.jpg" alt="Знак пешеходного перехода" class="photo-grid__item">
+            </li>
+            <li><img src="./images/photo-grid-kamchatka-1.jpg" alt="Камчатские сопки" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-kamchatka-2.jpg" alt="Сопка издалека" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-baikal-2.jpg" alt="Скала на побережье" class="photo-grid__item"></li>
+            <li><img src="./images/photo-grid-ergaki.jpg" alt="Эргаки" class="photo-grid__item"></li>
         </section>
+
+        <!-- Блок "places" -->
         <section class="places">
             <article class="place">
                 <h2 class="place__title">Куршская коса</h2>
@@ -170,6 +175,8 @@
                 </div>
             </article>
         </section>
+
+        <!-- Блок "cover" -->
         <section class="cover">
             <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
                 <h2 class="cover__title">До Байкала «на собаках»</h2>
