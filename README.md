@@ -10,7 +10,7 @@
 4. Медиа-запросы (media queries)
 5. БЭМ-Nested
 
-Ссылка на проект: https://SmoothSun.github.io/russian-travel
+Ссылка на проект: https://smoothsun.github.io/russian-travel/
 
 Планы по доработке:
 1. Добавить скрипт для смены языка страницы.

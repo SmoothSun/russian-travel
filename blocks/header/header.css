@@ -4,13 +4,20 @@
     margin: 0 auto;
     justify-content: space-between;
     align-items: flex-end;
+    max-width: calc(100% - 48px * 2);
+    width: 100%;
     padding: 28px 0 0 0;
-    width: calc(100% - 48px * 2);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width:768px) {
     .header {
-        width: calc(100% - 24px * 2);
+        max-width: calc(100% - 24px * 2);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .header {
+        max-width: calc(100% - 16px * 2);
         padding: 16px 0 0 0;
     }
 }
