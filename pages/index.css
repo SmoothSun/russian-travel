@@ -49,7 +49,3 @@
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
 @import url(../blocks/intro/__span/intro__span.css);
-
-* {
-    outline: 1px solid yellow;
-}
