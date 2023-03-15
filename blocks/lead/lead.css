@@ -1,21 +1,32 @@
 .lead {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    color: fff;
     display: flex;
-    position: relative;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    width: calc(100% - 148px * 2);
+    max-width: 984px;
+    width: 100%;
+    padding: 0 48px;
     margin: 0 auto;
+    color: #fff;
+
 }
 
 @media screen and (max-width: 1024px) {
     .lead {
-        width: calc(100% - 48px * 2);
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .lead {
-        width: 100%;
+        max-width: 768px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lead {
+        max-width: 320px;
     }
 }
